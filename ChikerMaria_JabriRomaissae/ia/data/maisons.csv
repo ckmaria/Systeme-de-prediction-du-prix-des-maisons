@@ -1,0 +1,31 @@
+surface,chambres,localisation,type_bien,etat,facades,etage,ascenseur,prix
+45,1,Casablanca,Studio,Bon,1,2,1,480000
+58,1,Rabat,Appartement,Neuf,1,1,1,620000
+72,2,Casablanca,Appartement,Bon,1,3,1,760000
+83,2,Tanger,Appartement,Bon,2,4,1,735000
+95,2,Marrakech,Appartement,A renover,1,2,0,610000
+101,3,Fes,Appartement,Bon,2,1,0,690000
+110,3,Agadir,Maison,Bon,2,0,0,940000
+120,3,Casablanca,Appartement,Bon,2,3,1,950000
+132,3,Rabat,Appartement,Neuf,2,2,1,1240000
+145,4,Marrakech,Maison,Bon,2,0,0,1280000
+155,4,Tanger,Maison,Neuf,3,0,0,1490000
+168,4,Casablanca,Maison,A renover,2,0,0,1180000
+180,4,Rabat,Maison,Bon,3,0,0,1620000
+196,5,Agadir,Villa,Bon,3,0,0,1890000
+210,4,Marrakech,Villa,Neuf,3,0,0,2350000
+230,5,Casablanca,Villa,Bon,3,0,0,2840000
+250,5,Rabat,Villa,Neuf,4,0,0,3100000
+68,2,Fes,Appartement,A renover,1,5,0,410000
+88,2,Autre,Appartement,Bon,1,2,0,490000
+105,3,Tanger,Appartement,Neuf,2,5,1,1020000
+118,3,Marrakech,Appartement,Bon,2,2,1,930000
+127,3,Agadir,Appartement,Bon,2,3,1,880000
+138,3,Casablanca,Maison,Neuf,2,0,0,1580000
+160,4,Autre,Maison,Bon,2,0,0,940000
+175,4,Fes,Maison,Neuf,3,0,0,1210000
+205,5,Tanger,Villa,Bon,3,0,0,2190000
+240,5,Marrakech,Villa,A renover,3,0,0,1980000
+265,6,Casablanca,Villa,Neuf,4,0,0,3650000
+300,6,Rabat,Villa,Bon,4,0,0,3420000
+38,1,Autre,Studio,A renover,1,4,0,210000

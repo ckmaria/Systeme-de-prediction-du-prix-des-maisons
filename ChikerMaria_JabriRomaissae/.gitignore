@@ -1,0 +1,8 @@
+backend-laravel/vendor
+backend-laravel/.env
+frontend-react/node_modules
+frontend-react/.env
+frontend-react/dist
+ia/models/*.joblib
+*.zip
+*.log

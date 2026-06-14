@@ -1,0 +1,63 @@
+{
+  "info": {
+    "name": "Prediction Prix Maisons",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/health",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "health"]
+        }
+      }
+    },
+    {
+      "name": "Prediction prix maison",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"surface\": 120,\n  \"chambres\": 3,\n  \"localisation\": \"Casablanca\",\n  \"type_bien\": \"Appartement\",\n  \"etat\": \"Bon\",\n  \"facades\": 2,\n  \"etage\": 3,\n  \"ascenseur\": true\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/predict",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "predict"]
+        }
+      }
+    },
+    {
+      "name": "Liste predictions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/predictions",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "predictions"]
+        }
+      }
+    }
+  ]
+}

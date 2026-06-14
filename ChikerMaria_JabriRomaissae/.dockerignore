@@ -1,0 +1,12 @@
+backend-laravel/vendor
+backend-laravel/.env
+backend-laravel/storage/logs/*.log
+backend-laravel/storage/framework/cache/data
+backend-laravel/storage/framework/views/*.php
+backend-laravel/bootstrap/cache/*.php
+backend-laravel/%SystemDrive%
+frontend-react/node_modules
+frontend-react/dist
+frontend-react/.env
+*.zip
+*.log

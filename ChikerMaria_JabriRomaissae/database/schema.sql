@@ -1,0 +1,21 @@
+CREATE DATABASE IF NOT EXISTS house_price_db
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE house_price_db;
+
+CREATE TABLE IF NOT EXISTS predictions (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  surface DECIMAL(10, 2) NOT NULL,
+  chambres SMALLINT UNSIGNED NOT NULL,
+  localisation VARCHAR(100) NOT NULL,
+  type_bien VARCHAR(50) NOT NULL,
+  etat VARCHAR(50) NOT NULL,
+  facades TINYINT UNSIGNED NOT NULL,
+  etage TINYINT UNSIGNED NOT NULL DEFAULT 0,
+  ascenseur BOOLEAN NOT NULL DEFAULT FALSE,
+  prix_estime INT UNSIGNED NOT NULL,
+  payload JSON NULL,
+  created_at TIMESTAMP NULL,
+  updated_at TIMESTAMP NULL
+);
